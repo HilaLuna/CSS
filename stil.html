@@ -1,0 +1,51 @@
+body{
+    background-color: bisque; /*süslü parantez içindekiler genelde code block olarak geçer*/
+    color: rgba(81, 81, 205, 0.654);
+}
+/*kodun yazılma özelliği şöyle - hangi-özellik: ne-olarak-değişsin*/
+
+/*css'te attribute verirken, . koyarsak sınıf olarak algılıyor. Örneğin .ozel-p sınıfı ve ben bu sınıf
+içinde yazdıklarıma farklı özellikler verebiliyorum. Yani background color ve text color farklı yapabiliyorum.*/
+/*id özelliği vereceğim zaman da # koyarız. # koyunca id olarak algılıyor. #pId{ gibi.*/
+
+/*köşeli parantez [ koyunca da yazının rengi, boyutu vs özellik verebiliyoruz.*/
+
+body{
+    
+    background-color: bisque;
+    color: blueviolet;
+    background-image: url(hallstatt.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 50px;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+
+a:hover{ /*yazının üzerine gelindiğinde arka fonu sarı ve textin rengini de otomatik olarak kırmızı yapıyor. 
+bunlar sözde sınıflar*/
+    background-color: yellow;
+    color: red
+}
+/*yıldız veya nokta programlamada hepsi anlamına geliyor. Yani tüm sayfadaki her şeyi etkiliyor. */
+*{
+    margin: 5px;
+    border-radius: 10px;
+
+    @media (max: width 768px;) {
+
+        background-color: blue;
+        width: 200px;
+        height: 50px;
+    }
+
+
+}
