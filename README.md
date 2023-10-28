@@ -11,3 +11,4 @@ Combination of html and css properties were studied.
 ![](ekran.gif)
 
 # CSS
+# CSS
