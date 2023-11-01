@@ -13,7 +13,7 @@ içinde yazdıklarıma farklı özellikler verebiliyorum. Yani background color 
 body{
     
     background-color: bisque;
-    color: blueviolet;
+    color: white;
     background-image: url(hallstatt.jpeg);
     background-attachment: fixed;
     background-position: center;
